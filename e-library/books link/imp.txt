@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="book1.css">
+</head>
+<body>
+    
+
+   
+    <main>
+        <section class="category-list">
+            <header><center><h3>HORROR</h3></center></header>
+    <div class="main">
+        <div class="science"> 
+        <img src=""  alt="math">
+         <P>Book Name-  </P>
+         <p>Author-  </p> 
+         <a href="" class="btn" target="_blank" rel="noopener noreferrer">click here to read </a>
+        </div>  
+        
+    </div>
+</section></section>
+</main>
+
+<footer class="footer">
+<p>&copy; 2024 E-Library. All Rights Reserved.</p>
+</footer>
+</body>
+</html>

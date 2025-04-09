@@ -1,0 +1,214 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #e0eafc, #cfdef3); /* Soft background blend for the entire page */
+}
+main{
+    background: linear-gradient(135deg,rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9));
+}
+
+/* Header */
+.header {
+     background: linear-gradient(135deg, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.9)); 
+    /* Transparent blend */ 
+    color: white;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+.header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header .nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.header .nav ul li {
+    margin-left: 20px;
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header .nav ul li a:hover {
+    color: #ffe082;
+}
+
+/* Banner Section */
+.banner {
+     /* background: linear-gradient(135deg, rgba(106, 17, 203, 0.9), rgba(37, 117, 252, 0.8)); */
+     background: transparent;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.banner-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner-content .btn {
+    background-color: #ffe082;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.banner-content .btn:hover {
+    background-color: #ffd54f;
+}
+
+/* Categories Section */
+.categories {
+    padding: 80px 20px;
+    /* background: linear-gradient(135deg, rgba(106, 17, 203, 0.8), rgba(37, 117, 252, 0.8));
+     */
+     background: transparent;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.categories h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.category {
+    width: 250px;
+    height: 200px;
+    position: relative;
+     background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+     
+     
+    border-radius: 25px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.category img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: opacity 0.3s ease;
+}
+
+.category h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.category:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Browse Categories Section */
+.browse-categories {
+    padding: 80px 20px;
+    /* background: linear-gradient(135deg, rgba(37, 117, 252, 0.9), rgba(106, 17, 203, 0.8));
+     */
+     background: transparent;
+    text-align: center;
+    color: white;
+}
+
+.browse-categories .container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.browse-categories h2 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+.browse-categories .btn {
+    background-color: #ff6f00;
+    color: white;
+    padding: 12px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.browse-categories .btn:hover {
+    background-color: #e65c00;
+}
+
+/* Welcome Section */
+#welcome-section {
+    /* background: linear-gradient(135deg, rgba(0, 123, 255, 0.9), rgba(106, 17, 203, 0.8)); */
+    background: transparent;
+
+    padding: 40px;
+    color: white;    
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    background: linear-gradient(135deg, rgba(0, 123, 255, 0.8), rgba(106, 17, 203, 0.8));
+    
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
